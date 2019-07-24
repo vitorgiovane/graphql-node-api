@@ -63,3 +63,6 @@ typings/
 # VS Code
 .history
 .vscode
+
+# Docker DB Data
+docker/mariadb/data
