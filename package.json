@@ -16,6 +16,7 @@
     "@types/express-graphql": "^0.8.0",
     "@types/graphql": "^14.2.3",
     "@types/node": "^12.6.8",
+    "@types/sequelize": "^4.28.4",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-typescript": "^5.0.1",
@@ -26,6 +27,11 @@
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
     "graphql": "^14.4.2",
-    "graphql-tools": "^4.0.5"
+    "graphql-tools": "^4.0.5",
+    "sequelize": "^5.10.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitorgiovane/graphql-node-api"
   }
 }
