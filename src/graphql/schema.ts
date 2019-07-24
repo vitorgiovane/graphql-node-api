@@ -1,6 +1,6 @@
 import { makeExecutableSchema } from "graphql-tools"
 
-const users: any[] = [
+let users: any[] = [
   {
     id: 1,
     name: "John Doe",
@@ -28,6 +28,13 @@ const typeDefs = `
 const resolvers = {
   Query: {
     allUsers: () => users
+  },
+  Mutation: {
+    createUser: (parent, args) => {
+      const user = Object.assign({ id: users.length + 1 }, args)
+      users.push(user)
+      return user
+    }
   }
 }
 
