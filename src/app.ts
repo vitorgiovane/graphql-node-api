@@ -1,3 +1,3 @@
 console.log("Hello, World!")
 
-let a: string = "Hello, man!"
+console.log("Hello, Vitor!")
