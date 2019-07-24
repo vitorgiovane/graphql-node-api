@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
-    "outDir": "dist"
+    "module": "commonjs"
   },
   "compileOnSave": false,
   "include": ["src/**/*.ts"],

@@ -23,6 +23,10 @@ const typeDefs = `
   type Query {
     allUsers: [ User! ]!
   }
+
+  type Mutation {
+    createUser(name: String!, email: String!): User
+  }
 `;
 const resolvers = {
     Query: {
